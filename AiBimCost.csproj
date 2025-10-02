@@ -66,6 +66,6 @@
     </Reference>
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="COPY /Y &quot;$(ProjectDir)CostEstimaotr_RevitAddin_2026.addin&quot; &quot;$(AppData)\Autodesk\Revit\Addins\2026\&quot;" />
+    <Exec Command="COPY /Y &quot;$(ProjectDir)CostEstimaotr_RevitAddin_2026.addin&quot; &quot;$(AppData)\Autodesk\Revit\Addins\2026\&quot;&#xD;&#xA;COPY /Y &quot;$(ProjectDir)Icons&quot; &quot;$(AppData)\Autodesk\Revit\Addins\2026\CostEstimator_RevitAddin_2026\Icons\&quot;&#xD;&#xA;MKDIR &quot;$(AppData)\Autodesk\Revit\Addins\2026\CostEstimator_RevitAddin_2026\Icons\&quot;&#xD;&#xA;XCOPY /E /I /Y &quot;$(ProjectDir)Icons&quot; &quot;$(AppData)\Autodesk\Revit\Addins\2026\CostEstimator_RevitAddin_2026\Icons\&quot;&#xD;&#xA;" />
   </Target>
 </Project>

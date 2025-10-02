@@ -33,7 +33,8 @@ namespace AiBimCost.StartTools
                 "Debug",
                 "net8.0-windows",
                 "AiBimCost.dll");
-            ADDINFOLDERPATH = Path.Combine(addinsFolder, "AiBimCost");
+            
+            ADDINFOLDERPATH = Path.Combine(addinsFolder, "CostEstimator_RevitAddin_2026");
 
             // 경로 설정이 끝난 후 리본 패널을 생성합니다.
             CreateRibbonPanel(uiConApp);
