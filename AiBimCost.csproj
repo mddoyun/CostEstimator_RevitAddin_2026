@@ -8,6 +8,7 @@
 	  <Nullable>enable</Nullable>
 	  <ImplicitUsings>enable</ImplicitUsings>
 	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+	  <BaseOutputPath>$(AppData)\Autodesk\Revit\Addins\2026\CostEstimator_RevitAddin_2026</BaseOutputPath>
 
   </PropertyGroup>
 
@@ -56,10 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="RevitAPI">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2025\RevitAPI.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2026\RevitAPI.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Autodesk\Revit 2025\RevitAPIUI.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2026\RevitAPIUI.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="COPY /Y &quot;$(ProjectDir)CostEstimaotr_RevitAddin_2026.addin&quot; &quot;$(AppData)\Autodesk\Revit\Addins\2026\&quot;" />
+  </Target>
 </Project>

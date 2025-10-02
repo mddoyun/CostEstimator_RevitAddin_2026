@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\mddoyun\AppData\Roaming\Autodesk\Revit\Addins\2026\AiBimCost\obj\Debug\net8.0-windows\
+C:\Users\mddoy\Documents\Developments\CostEstimator_RevitAddin_2026\obj\Debug\net8.0-windows\
 AiBimCost
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 1-1287977945
 
 10-1276874061
-229754473429
+229-147635678
 MainTools\QuantityTakeoff_web\ConnectorWindow.xaml;
 
 False

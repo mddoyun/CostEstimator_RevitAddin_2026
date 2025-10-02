@@ -29,8 +29,7 @@ namespace AiBimCost.StartTools
 
             // 1단계에서 선언한 멤버 변수에 실제 경로를 할당합니다.
             THISCLASSDLLPATH = Path.Combine(addinsFolder,
-                "AiBimCost",
-                "bin",
+                "CostEstimator_RevitAddin_2026",
                 "Debug",
                 "net8.0-windows",
                 "AiBimCost.dll");
