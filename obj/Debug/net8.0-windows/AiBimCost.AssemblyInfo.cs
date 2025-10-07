@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AiBimCost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f6fff122c16d17d48892a866dfd36327caf2a39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e0bcec2acfc29e7f4981de069ec07e8dd6e82fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("AiBimCost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AiBimCost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
